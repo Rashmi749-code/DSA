@@ -1,3 +1,4 @@
+#This provides a basic inventory management system. It defines two core functions: process_sale to handle sales and update stock quantities, and identify_zero_stock to find items that are out of stock. The code also includes a series of test cases to demonstrate and verify the functionality of these functions under different scenarios, such as normal sales, insufficient stock, and SKU not found errors
 # Inventory Stock Manager with Test Cases
 
 def process_sale(inventory, sku, qty_sold):
@@ -72,3 +73,4 @@ if __name__ == "__main__":   # ✅ fixed here
     inventory = [(101, 10)]
     inventory = process_sale(inventory, 101, 10)
     print("Updated Inventory:", inventory, "\n")
+
