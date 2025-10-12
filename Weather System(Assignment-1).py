@@ -1,3 +1,6 @@
+Problem Statement-
+Design and implement a Weather Data Storage System that efficiently stores and retrieves temperature records for multiple cities over several years using a 2D array-based data structure.
+
 # Step 1: Define the Weather Record ADT
 class WeatherRecord:
     def __init__(self, date, city, temperature):
@@ -97,4 +100,5 @@ if __name__ == "__main__":
     weather_system.columnMajorAccess()
     weather_system.handleSparseData()
     weather_system.analyzeComplexity()
+
 
